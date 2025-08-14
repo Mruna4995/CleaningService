@@ -1,107 +1,89 @@
 <!-- Top Contact Bar -->
-<!-- Logo Example -->
-
-
 <div class="top-bar">
   <div class="contact-info">
-    📞 +91 7021503608  &nbsp;&nbsp;| &nbsp;&nbsp; 📞 8850788702  &nbsp;&nbsp;| &nbsp;&nbsp; 📍 Mumbai, India &nbsp;&nbsp;|&nbsp;&nbsp;  <a href="mailto:support&#64;gmail.com">✉️ www.vmgmanagement26.com</a>
-
+    📞 +91 7021503608 &nbsp;&nbsp;| &nbsp;&nbsp; 📞 8850788702 &nbsp;&nbsp;| &nbsp;&nbsp; 📍 Mumbai, India &nbsp;&nbsp;|&nbsp;&nbsp;  <a href="mailto:support&#64;gmail.com">✉️ www.vmgmanagement26.com </a> &nbsp;&nbsp;| &nbsp;&nbsp; <a routerLink="/auth/contact"><i class="fa fa-phone"></i> Contact</a> &nbsp;&nbsp;| &nbsp;&nbsp;
+    <a routerLink="/user/send-request">Send Request</a>
   </div>
   <div class="social-icons" style="font-size: 14px; color: #4267B2;">
-      <span style="color: white" >Follow us : </span>
-
-
-  <a href="https://www.facebook.com/profile.php?id=100004543022518" target="_blank">
-    <i class="fab fa-facebook-f"></i>
-  </a>
-
+    <span style="color: black">Follow us: </span>
+    <a href="https://www.facebook.com/profile.php?id=100004543022518" target="_blank">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+  </div>
+</div>
+<div class="diwali-offer">
+  <marquee direction="right" scrollamount="7" style="color: #fff; font-size: 18px; background-color: #48ad34; padding: 10px;">
+    🎉 Diwali Special Offer! Get 20% off on Cleaning Services! 🎉
+  </marquee>
 </div>
 
-
-</div>
 <header class="dashboard-header">
   <img src="assets/logo.png" alt="VMG Logo" class="logo-img" />
-  <h1 class="dashboard-title">VMG Cleaning  </h1>
-   <div class="nav-links">
-    <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
-    <a routerLink="/auth/contact" ><i class="fa fa-phone"></i> Contact</a>
-     <a  routerLink="/user/send-request">Send Request</a>
+  <h1 class="dashboard-title">VMG Cleaning</h1>
+  <div class="nav-links">
 
 
   </div>
 </header>
 
-
-
 <!-- Hero Section -->
 <section class="hero">
   <div class="hero-text">
     <h3>"Home Hygiene Starts with Us"</h3>
-    <h1>"We Don’t Cut Corners <br> — We Clean Them!</h1>
+    <h1>"We Don’t Cut Corners <br> — We Clean Them!"</h1>
   </div>
   <div class="hero-image">
-    <img src="assets/cleaning_worker.jpg" alt="Worker">
+    <img src="assets/vmg.jpg" alt="Worker">
   </div>
-
-
-
 </section>
+
+<!-- About Us Section -->
 <section class="about-us-section">
-  <div class="video-wrapper">
-  <video #aboutVideo autoplay muted loop playsinline>
-    <source src="assets/vmg.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+  <div class="about-us-wrapper">
+    <!-- Video Section -->
+    <div class="video-wrapper">
+      <video autoplay muted loop playsinline controls>
+        <source src="assets/vmg1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
 
-</div>
+    <!-- About Us Section -->
+    <div class="about-box">
+      <h2>About Us</h2>
+      <div class="about-text">
+        <p>At VMG Services, we specialize in providing reliable and professional cleaning solutions, including kitchen cleaning, window cleaning, bathroom sanitization, and more.</p>
+        <p>With a skilled team and a customer-first approach, we ensure a hygienic and sparkling environment—whether it’s residential or commercial.</p>
 
-
-  <section class="about-box">
-  <h2>About Us </h2>
-  <div class="about-text">
-    <p>At VMG Services, we specialize in providing reliable and professional cleaning solutions <br>
-      including kitchen cleaning, window cleaning, bathroom sanitization, and more.
-    </p>
-
-    <p>
-      With a skilled team and a customer-first approach, we ensure a hygienic and sparkling <br>
-      environment—whether it’s residential or commercial.
-    </p>
-
-    <p>
-      Your trusted partner for professional pest control solutions in Mumbai. <br>
-      Recognizing the distinct challenges presented by pests within the city, <br>
-      we are dedicated to delivering effective, safe, and reliable services <br>
-      to both residential and commercial properties throughout Mumbai.
-    </p>
+      </div>
+    </div>
   </div>
 </section>
+
+<!-- Our Services Section -->
 <section class="our-services-section">
   <h2>🧹 Our Services</h2>
   <div class="service-cards">
     <div class="service-card">
-      <img src="assets/cleaning_worker.jpg" alt="Pest Control" />
+      <img src="assets/kitchen.jpg" alt="Kitchen Cleaning" />
       <h4>Kitchen Cleaning</h4>
       <p>Deep cleaning of your kitchen space for hygiene and shine.</p>
       <a class="book-btn" routerLink="/user/send-request">Book Now</a>
     </div>
-
     <div class="service-card">
-      <img src="assets/floor_cleaning.jpg" alt="Deep Cleaning" />
+      <img src="assets/vmg.jpg" alt="Floor Cleaning" />
       <h4>Floor Cleaning</h4>
       <p>Floor cleaning that brightens your space.</p>
       <a class="book-btn" routerLink="/user/send-request">Book Now</a>
     </div>
-
     <div class="service-card">
       <img src="assets/sofa_cleaning.jpg" alt="Sofa Cleaning" />
       <h4>Mattress & Sofa Cleaning</h4>
       <p>Remove deep-seated dirt, allergens, and stains.</p>
       <a class="book-btn" routerLink="/user/send-request">Book Now</a>
     </div>
-
     <div class="service-card">
-      <img src="assets/Bathroomcleaning.jpg" alt="Bathroom Cleaning" />
+      <img src="assets/bathroom.jpg" alt="Bathroom Cleaning" />
       <h4>Bathroom Cleaning</h4>
       <p>Sanitize tiles, toilets, and fittings for a sparkling finish.</p>
       <a class="book-btn" routerLink="/user/send-request">Book Now</a>
@@ -109,6 +91,7 @@
   </div>
 </section>
 
+<!-- How We Work Section -->
 <section class="how-we-work">
   <div class="container">
     <h2>How We Work</h2>
@@ -131,34 +114,142 @@
     </div>
   </div>
 </section>
-<section class="why-choose-us">
-  <div class="container">
-    <h2>Why Choose Us</h2>
-    <div class="reasons">
-      <div class="reason">
-        <div class="icon">⏱️</div>
-        <h3>Timely Service</h3>
-        <p>We value your time and ensure all services are delivered promptly.</p>
+<section>
+  <div class="services-container">
+        <div class="service-box household">
+            <h3>Household Services</h3>
+             <div class="renovation-image-wrapper">
+                <img src="assets/household.jpg" alt="Post-renovation cleaning services">
+            </div>
+            <p>We help homeowners create a clean, fresh environment through our expert deep cleaning services.</p>
+
+          </div>
+
+        <div class="service-box commercial">
+            <h3>Advantages of Booking Our Team for Commercial Services</h3>
+            <div class="renovation-image-wrapper">
+                <img src="assets/staff.jpg" alt="Post-renovation cleaning services">
+            </div>
+            <p>Customized cleaning solutions for offices, retail spaces, and commercial facilities to maintain a healthy work atmosphere.</p>
+
+          </div>
+
+        <div class="service-box renovation">
+            <h3>Renovation Services</h3>
+            <div class="renovation-image-wrapper">
+                <img src="assets/commericial.jpg" alt="Post-renovation cleaning services">
+            </div>
+            <p>Post-renovation cleaning to remove dust, stains, and debris - making your space fresh and ready to use.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Customer Feedback Section -->
+<!-- Customer Feedback Section -->
+<section class="customer-feedback">
+  <h2>What Our Happy Clients Say About Us</h2>
+  <div class="feedback-container">
+    <!-- Feedback 1 -->
+    <div class="feedback-card">
+      <div class="customer-info">
+        <img src="assets/customer1.jpg" alt="Customer 1" class="customer-img" />
+        <h3 class="customer-name">Devika Vidhate</h3>
+        <p class="service-name">VMG Service</p>
       </div>
-      <div class="reason">
-        <div class="icon">💼</div>
-        <h3>Professional Staff</h3>
-        <p>Our team is trained, verified, and experienced to deliver high standards.</p>
+      <div class="feedback-message">
+        <p>"VMG Cleaning is amazing! They provide the best VMG services, and the team is very professional. Highly recommend!"</p>
       </div>
-      <div class="reason">
-        <div class="icon">✅</div>
-        <h3>Guaranteed Satisfaction</h3>
-        <p>Your satisfaction is our top priority — we guarantee high-quality results.</p>
+      <div class="rating">
+        <span>⭐ ⭐ ⭐ ⭐ ⭐</span>
       </div>
-      <div class="reason">
-        <div class="icon">🔒</div>
-        <h3>Secure & Reliable</h3>
-        <p>We follow secure protocols and transparent communication at every step.</p>
+    </div>
+
+    <!-- Feedback 2 -->
+    <div class="feedback-card">
+      <div class="customer-info">
+        <img src="assets/customer2.jpg" alt="Customer 2" class="customer-img" />
+        <h3 class="customer-name">Shweta Sapkal</h3>
+        <p class="service-name">Deep Cleaning</p>
+      </div>
+      <div class="feedback-message">
+        <p>"Fantastic cleaning service! My home looks spotless, and the team was friendly and thorough. Highly recommend!"</p>
+      </div>
+      <div class="rating">
+        <span>⭐ ⭐ ⭐ ⭐</span>
+      </div>
+    </div>
+
+    <!-- Feedback 3 -->
+    <div class="feedback-card">
+      <div class="customer-info">
+        <img src="assets/customer4.jpg" alt="Customer 3" class="customer-img" />
+        <h3 class="customer-name">Worli Mumbai Metro Station</h3>
+        <p class="service-name">Worli mumbai Metro Station</p>
+      </div>
+      <div class="feedback-message">
+<p>"VMG Services did an excellent job maintaining the cleanliness at Worli Metro Station! The station was spotless, and it made my commute so much more pleasant. They really care about providing a clean and safe environment for passengers!"</p>
+      </div>
+      <div class="rating">
+        <span>⭐ ⭐ ⭐ ⭐ ⭐</span>
+      </div>
+    </div>
+
+    <!-- Feedback 4 -->
+
+
+    <!-- Feedback 6 -->
+    <div class="feedback-card">
+      <div class="customer-info">
+        <img src="assets/customer3.jpg" alt="Customer 6" class="customer-img" />
+        <h3 class="customer-name">Sarah Kim</h3>
+        <p class="service-name">Mattress Cleaning</p>
+      </div>
+      <div class="feedback-message">
+        <p>"I am very pleased with the mattress cleaning service. The team was on time, and my mattress feels fresh and clean again!"</p>
+      </div>
+      <div class="rating">
+        <span>⭐ ⭐ ⭐ ⭐</span>
       </div>
     </div>
   </div>
 </section>
 
+<!-- Why Choose Us Section -->
+<section class="team-section">
+  <h2>Together with Our Best Team</h2>
+  <p>Our strength lies in our people. Meet the professionals who bring cleanliness and care to your space.</p>
 
+  <div class="team-container">
+    <!-- Team Member 1 -->
+    <div class="team-member">
+      <img src="assets/niranjan.jpg" alt="Niranjan Kamble" class="team-photo" />
+      <h3>Niranjan Kamble</h3>
+      <p class="role">Cleaning Expert</p>
+    </div>
 
+    <!-- Team Member 2 -->
+    <div class="team-member">
+      <img src="assets/devdas.jpg" alt="Devdas Shinde" class="team-photo" />
+      <h3>Devdas Shinde</h3>
+      <p class="role">Cleaning Expert</p>
+    </div>
 
+    <!-- Team Member 3 -->
+    <div class="team-member manager">
+      <img src="assets/santosh.jpg" alt="Santosh Mane" class="team-photo" />
+      <h3>Santosh Mane</h3>
+      <p class="role">Manager</p>
+    </div>
+
+    <!-- Team Member 4 -->
+    <div class="team-member">
+      <img src="assets/aniket.jpg" alt="Aniket Mane" class="team-photo" />
+      <h3>Aniket Mane</h3>
+      <p class="role">Supervisor</p>
+    </div>
+  </div>
+
+  <div class="contact-btn-container">
+    <a href="/auth/contact" class="contact-now-btn">Contact Now</a>
+  </div>
+</section>

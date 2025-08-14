@@ -78,3 +78,26 @@
   border-radius: 4px;
   cursor: pointer;
 }
+.social-icons a {
+  color: white;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #d0e2ff;
+  font-size: 14px;
+}
+
+.contact-info {
+  color: white;
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      color: #ffa500;
+    }
+  }
+}

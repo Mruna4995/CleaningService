@@ -1,45 +1,78 @@
+/* Admin Login Page */
 .admin-login-page {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f0f2f5;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 100vh;            /* Full viewport height */
+  width: 100vw;             /* Full viewport width */
+  margin: 0;                /* Remove any default margin */
+  background-color: #f4f4f4; /* Optional: Background color */
 }
 
+/* Admin Login Card */
 .admin-login-card {
-  background: #fff;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-  width: 350px;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;   /* Card width */
   text-align: center;
 }
 
-form .form-group {
-  margin-bottom: 1.2rem;
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
 }
 
 input[type="email"],
 input[type="password"] {
   width: 100%;
-  padding: 0.75rem;
-  font-size: 1rem;
+  padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 6px;
-  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
 }
 
 button[type="submit"] {
   width: 100%;
-  padding: 0.75rem;
-  font-size: 1rem;
-  background-color: #007bff;
-  color: #fff;
+  padding: 10px;
   border: none;
-  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
   cursor: pointer;
 }
 
 button[type="submit"]:hover {
   background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .admin-login-card {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .admin-login-card {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
 }
